@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {  /* usando imagens externa que estão na pasta 'imagens'*/
+    background-image: url('imagens/wallpaper001.jpg');
+}
+
+div {
+    margin-left: 20px;
+    padding-left: 90px;
+}
+
+div.quadrado {  /* usando cores nos quadrados */
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+div#q1 {  /* usando cores nos quadrados */
+    background-color: skyblue;
+}
+
+div#q2 { /* usando imagens externa que estão na pasta 'imagens'*/
+    background-image: linear-gradient(to bottom, yellow, red );
+}
+
+div#q3 {  /* usando imagens externa que estão na pasta 'imagens'*/
+    background-image: url('imagens/pattern003.png');
+}
