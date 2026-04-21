@@ -2,16 +2,23 @@
 
 body{
     height: 97vh;/*vh => é a viewport da pagina a altura*/
-    background-color: black;
+    /*background-color: black;
     background-image: url('imagens/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;/*é aceito = auto, contain 100% exibida, cover melhor opção para ocupar 100% viewport*/
+    background-size: cover;/*é aceito = auto, contain 100% exibida, cover melhor opção para ocupar 100% viewport
+    background-attachment: fixed;*/
+
+    /*Shorthand - background
+        color > image > position > repeat [size](não funciona no momento) > attachement*/
+
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;/*tem que colocar o (background-size: cover;) aqui para aparecer a imagem*/
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 700px;
     padding: 10px;
     margin: auto;
     border: solid darkblue;
