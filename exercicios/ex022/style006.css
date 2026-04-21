@@ -9,7 +9,7 @@ body{
     background-size: cover;/*é aceito = auto, contain 100% exibida, cover melhor opção para ocupar 100% viewport
     background-attachment: fixed;*/
 
-    /*Shorthand - background
+    /*Shorthand - background  => substitui todo comando acima
         color > image > position > repeat [size](não funciona no momento) > attachement*/
 
     background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
