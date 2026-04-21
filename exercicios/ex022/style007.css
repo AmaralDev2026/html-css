@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#container{
+    position: relative;/*background externo sempre (relative)*/
+    height: 94vh;/*ajustando a viewport(vh) para não ter barra de rolagem*/
+    padding: 10px;
+    background-color: purple;
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;/*esta medida é pra centralizar o alvo no background*/
+}
+
+#conteudo{
+    position: absolute;/*background interno sempre (absolute)*/
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;/*esta medida é pra centralizar o alvo no background*/
+
+    left: 50%;/*esta medida é pra centralizar o (conteudo) no alvo do background do (container)*/
+    top: 50%;/*esta medida é pra centralizar o (conteudo) no alvo do background do (container)*/
+
+    transform: translate(-50%, -50%);/*esta medida é pra centralizar o (conteudo) ao (container) no alvo do background*/
+}
