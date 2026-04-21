@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh; /*vh => é a view port da pagina a altura*/
+    border: dashed black;/*borda pontilhada para identif. o body*/
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;/*vh =>sendo usado para centralizar o desenho porque a o body não está ajustado para deixar o desenho no centro*/
+}
