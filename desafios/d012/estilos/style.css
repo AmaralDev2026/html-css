@@ -1,13 +1,25 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+/*importado do fonts.google.com*/
+
+:root { /* pseudoclass (:root) para acelerar a configuração das fontes no código*/
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Passion One", sans-serif;
+    --font3: "Sriracha", cursive;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);/* pseudoclass (:root) para acelerar a configuração das fontes no código*/
 }
 
 header {
@@ -21,6 +33,8 @@ header > h1 {
     padding-top: 50px;
    /* text-transform: uppercase; => deixa todas em maúsculas*/
    font-variant: small-caps;/*essa deixa todas maiúsculas porem as primeiras se destacam*/
+   font-family: var(--font2);/* pseudoclass (:root) para acelerar a configuração das fontes no código*/
+   font-size: 10vw;
 }
 
 header a, footer {
@@ -29,8 +43,9 @@ header a, footer {
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
+header a:hover, footer a:hover {/*:hoover =>se altera quando o mouse passa sobre a palavra do link*/
     text-decoration: underline;
+    color: yellow;
 }
 
 section {
@@ -38,6 +53,10 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);/* pseudoclass (:root) para acelerar a configuração das fontes no código*/
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 3.5vw;
 }
 
 section.normal {
@@ -52,29 +71,30 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;/* background-color (caixa) que se adapta ao tamanho do texto*/
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
-footer {
+footer { /* rodapé */
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-footer a {
-    text-decoration: none;
+footer a {/* rodapé especifico para o link (a)*/
+    text-decoration: none;/* retira a linha abaixo do texto link */
     color: white;
     font-weight: bolder;
 }
 
-footer a:hover {
+footer a:hover {/* :hoover => se altera somente quando o mouse passa sobre a palavra do link*/
     text-decoration: underline;
     color: yellow;
 }
 
-a.externo::after {
+a.externo::after { /* código que cria a imagem lateral da corrente indicando como link */
     content: '\00A0\1F517';
 }
 
