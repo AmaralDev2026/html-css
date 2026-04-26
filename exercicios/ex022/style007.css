@@ -20,5 +20,7 @@
     left: 50%;/*esta medida é pra centralizar o (conteudo) no alvo do background do (container)*/
     top: 50%;/*esta medida é pra centralizar o (conteudo) no alvo do background do (container)*/
 
+    /*DETALHE  com essas medidas ele va centralizar orientado sempre pela ponta do quadrado esquedo superior, ele será levado ao centro do desenho, na dúvida apague os valores abaixo para poder ver o que acontece nessa orientalção*/
+
     transform: translate(-50%, -50%);/*esta medida é pra centralizar o (conteudo) ao (container) no alvo do background*/
 }
