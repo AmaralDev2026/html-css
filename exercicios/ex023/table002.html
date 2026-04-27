@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style002.css">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH    
+            TBORY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+                TABLE ROW = linha de tabela  => <tr></tr>
+                TABLE DATA = dado de tabela  => <td></td>
+                TABLE HEADER = cabeçalho de tabela => <th></th>
+    -->
+    <table>  <!-- TABELA -->
+        <thead> <!--TABLE HEADER  cabeçalho de tabela -->
+            <tr> <!-- TABLE ROW = linha de tabela  => <tr></tr> -->
+                <th>Estado</th>
+                <th>População</th> <!--TABLE HEADER = cabeçalho de tabela => <th></th> -->
+            </tr>
+        </thead>
+        <tbody> <!--TABLE BODY corpo da tabela -->
+            <tr>
+                <td>São Paulo</td> <!-- TABLE DATA = dado de tabela  => <td></td> -->
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Miinas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>  <!-- TABLE FOOT rodapé da tabela -->
+                <th>Total de Habitantes</th>   <!--TABLE HEADER = cabeçalho de tabela => <th></th> -->
+                <td>000000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
