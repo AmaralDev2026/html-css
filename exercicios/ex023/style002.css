@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+bod {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(170, 161, 161);
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative; /* Comando (position: relative;) é obrigatório para fixar o cabeçalho da tabela */
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead, tfoot {
+    background-color: #383838; /* esse comando tem que ser usado no comando abaixo para a rolagem da tabela */
+    color: white;
+}
+
+thead > tr > th { /* COMANDO PARA MANTER O CABEÇALHO FIXO NA ROLAGEM DA TABELA */
+    position: sticky; /* Comando (sticky) é fixar o cabeçalho da tabela */
+    top: -1px;
+     background-color: #383838;/* Comando (background-color: #383838;) é obrigatório para fixar o cabeçalho da tabela, se não a cor sobe com a rolagem */
+}
+
+tbody > tr:nth-child(2n) { 
+    /* para efeito zebrado uso (2n)um não, um sim, 2n-1=(odd)Ímpar, (even)Par */
+    background-color: rgb(170, 161, 161);
+}
+
+td.num {
+    text-align: right;
+}
+
+
+
+
+

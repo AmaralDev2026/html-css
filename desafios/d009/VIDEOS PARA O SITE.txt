@@ -1,0 +1,32 @@
+VIDEOS PARA O SITE
+
+html
+https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok?si=Lmf2pkp5adVQGfyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+JS
+https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1-w1RfGIov4?si=AqSaiv1rBmUj7Tbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+python
+https://www.youtube.com/watch?v=S9uPNppGsGo&t=36s
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo?si=JBnwkOWyMvb-GNPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+hardware
+https://www.youtube.com/watch?v=iT6E92Kt38o&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iT6E92Kt38o?si=Vi8ooTNYkT7UJP3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+PLAYLIST
+https://www.youtube.com/@cursoemvideo/playlists
+
+
+
+

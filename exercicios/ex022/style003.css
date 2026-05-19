@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div.bloco {
+    background-image: url('imagens/pattern002.png');
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+di#q1 {
+    background-position: left top;
+}
+
+di#q2 {
+    background-position: left center;
+}
+
+di#q3 {
+    background-position: right bottom;
+}
+
+di#q4 {
+    background-position: center center;
+}

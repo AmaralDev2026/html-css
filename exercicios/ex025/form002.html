@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário/ Senha</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required maxlength="30" size="10" placeholder="nome do Usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="8" placeholder="mínimo 8 letras" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
+<!--
+    oninput="calcIdade()": Chama a função toda vez que o valor do input muda.
+    new Date().getFullYear(): Obtém o ano atual (2026).
+    <output>: Elemento HTML5 ideal para exibir resultados de cálculos.
+    Number(iano.value): Garante que o valor capturado seja tratado como número para a subtração
+
+    select =>............................cria opções de seleção dentro caixa de seleção
+    optgroup =>..........................criando um grupo com lista de opções
+    option =>............................opções dentro do "optgroup"
+    datalist =>..........................caixa com texto inseridos pelo DEV para opção do usuário escolher, pode digitar tbm
+    textarea =>..........................caixa de texto para ssuas mensagens para o site
+    fieldset =>..........................grupo de campos, cria uma borda em volta do que desejo destacar 
+    legend =>............................sempre acompanha o fieldset
+    pattern="^[0-9]{4}-[0-9]{4}$" =>.... parametro para num. de telefone, inicia (^) fecha ($)[0-9]padrão de numeros {} digitos
+    estudar mais sobre =>................RegEx
+    required => .........................mostra mensagem para campo obrigatório 
+    minlength => ........................mínimo a ser digitado (comprimento mínimo)
+    maxlength => ........................máximo a ser digitado (comprimento máximo)
+    size => .............................quantidades de letras a ser digitado 
+    placeholder => ......................local para colocar coisas (espaço reservado)
+    autocomplete (on) (off) => ..........grava ou não grava o que foi digitado 
+    autocomplete (username) => ..........para salvar o nome do usuário 
+    autocomplete (current-password) => ..para salvar a senha do usuário 
+    autocomplete (new-password) => ......para uma nova senha do usuário 
+    checked =>...........................em radio só se usa uma vez
+    radio =>.............................na identificação de mesmo grupo pra opção de escolha tem que ter o mesmo nome "sexo" no como exemplo acima, o id tem que ser diferente
+-->
