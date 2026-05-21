@@ -7,7 +7,7 @@
     <style>
         div.conteiner {
             background-color: lightsalmon;
-            display: flex;
+            display: flex; /* O FLEX E ALING SÃO USADOS AQUI NO CONTEINER */
         }
         
         div.item {
@@ -32,7 +32,7 @@
 </body>
 </html>
 <!--
-flex-direction: (row) ou (column => quando usado é obrigatório colocar valor na altura do bloco (height))
+flex-direction: (main-axis)(row) ou (column => quando usado é obrigatório colocar valor na altura do bloco (height))
 
 quando usar esses flex não usar o => flex: auto; (flex: auto não funciona no elemento pai)
 
@@ -42,4 +42,6 @@ flex-wrap: wrap-reverse (quebra de posição dos blocos em posição inversa do 
 
 os comandos flex-direction: (row) ou (column), podem ser substituidos pelo comando (flex-flow)
 flex-flow: row wrap/ nowwrap/ wrap-reverse
+
+aling-items => (cross-axis) aling-items: stretch/ flex-start/ flex-end/ center
 -->
