@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox centralizado</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightsalmon;
+        }
+
+        main {  /* main é o pai */ 
+            background-color: lightgreen;
+            height: 90vh;
+            width: 90vw;
+
+            display: flex;
+            flex-flow: row nowrap;      
+            justify-content: center;   /* com esses dosi comandos mantem\os o box "tela de login" mantemos sempre no centro */
+            align-items: center;
+        }
+
+        section {
+            background-color: lightseagreen;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
+</body>
+</html>
+<!--
+flex-direction: (main-axis)(row) ou (column => quando usado é obrigatório colocar valor na altura do bloco (height))
+
+quando usar esses flex não usar o => flex: auto; (flex: auto não funciona no elemento pai)
+
+fle-wrap: wrap (quebra de posição em redução dos blocos)
+flex-wrap: nowwrap (não quebrar a posição dos blocos)
+flex-wrap: wrap-reverse (quebra de posição dos blocos em posição inversa do eixo transversal)
+
+os comandos flex-direction: (row) ou (column), podem ser substituidos pelo comando (flex-flow)
+flex-flow: row wrap/ nowwrap/ wrap-reverse
+
+aling-items => (cross-axis) aling-items: stretch/ flex-start/ flex-end/ center
+-->
