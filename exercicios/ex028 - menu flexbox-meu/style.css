@@ -34,6 +34,7 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-decoration: none;
+    text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.349);
     border-radius: 10px;
